@@ -1,0 +1,205 @@
+@media screen and (max-width:425px) {
+    .nav-bar {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-menu {
+        margin-top: 30px;
+        ;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .follow-us {
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .banner {
+        max-width: 100%;
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+    .banner-left {
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* text-align: center; */
+    }
+
+    .banner-left h2 {
+        font-size: 40px;
+
+    }
+
+    .banner-left h1 {
+        font-size: 60px;
+
+    }
+
+    .banner-left p {
+        font-weight: 500;
+        text-transform: lowercase;
+        margin-top: 15px;
+    }
+
+    .banner-right {
+        width: 80%;
+    }
+
+    .we-r-gamer {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .gamer-left {
+        width: 80%;
+    }
+
+    .gamer-right {
+        width: 80%;
+        text-align: center;
+    }
+
+    .purpose h4 {
+        font-size: 18px;
+    }
+
+    .funny-videos-top {
+        margin-top: 120px;
+    }
+
+    .funny-videos-top h2 {
+        font-size: 25px;
+    }
+
+    .funny-videos-top p,
+    .play-left p,.footer-link a {
+        font-size: 13px;
+    }
+
+    .cards {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .single-card {
+        width: 320px;
+        height: 320px;
+        margin-bottom: 20px;
+    }
+
+    .single-card img {
+        width: 320px;
+        height: 320px;
+    }
+
+    .single-card p, .cookie-policy a {
+        margin-top: 5px;
+        font-size: 11px;
+    }
+
+    .play {
+        margin-top: 40px;
+        margin-bottom: 90px;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .play-left {
+        width: 70%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .play-left h2 {
+        font-size: 35px;
+    }
+
+    .play-left p {
+        margin-top: 10px;
+    }
+
+    .play-right {
+        width: 60%;
+    }
+
+    .image-offer {
+        width: 100px;
+        margin-top: -80px;
+        margin-left: -50px;
+    }
+
+    .multi-games {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0 10%;
+    }
+    .btn-games {
+        font-size:9px;
+        width:115px;
+        height:45px;
+    }
+    .games-part img {
+        width: 24px;
+        height: 24px;
+    }
+    .btn-games p{
+        padding-left:3px;
+    }
+
+    /* FOOTER  */
+    footer h3 {
+        font-size: 25px;
+ 
+    }
+    .footer-logo img{
+        width:50px;
+    }
+    .footer-content,.social-icon,.cookie-policy{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .footer-link,
+    .cookie-policy,.social-icon {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        gap: 10px;
+    }
+    .cookie-policy{
+        grid-template-columns: repeat(2, 1fr);
+        gap:5px;
+    }
+    .social-icon{
+        font-size:17px;
+    }
+    .copyright {
+        font-size: 12px;
+    }
+
+
+}
