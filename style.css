@@ -321,9 +321,10 @@
 .multi-games {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 5px;
     flex-wrap: wrap;
-    margin: 0 80px;
+    width:90%;
+    margin:0 auto;
 }
 
 .btn-games {

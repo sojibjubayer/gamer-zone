@@ -164,7 +164,6 @@
     .multi-games {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        margin: 0 10%;
     }
     .btn-games {
         font-size:9px;
