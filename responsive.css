@@ -1,3 +1,109 @@
+
+/* RESPONSIVE FOR TABLET  */
+@media screen and (max-width:768px){
+
+    .nav-bar {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .logo-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .nav-menu {
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    .banner {
+        max-width: 100%;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+    .banner-left {
+        margin-bottom: 30px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner-right{
+        width:80%;
+    }
+    .we-r-gamer {
+        margin-top: 100px;
+        width: 100%;
+        flex-direction: column;
+    }
+    .gamer-left {
+        width: 80%;
+    }
+
+    .gamer-right {
+        width: 80%;
+        text-align: center;
+    }
+    .cards {
+        width: 100%;
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+        align-items: center;
+        column-gap: 15px;
+        row-gap:100px;
+    }
+    .play {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .play-left {
+        width: 80%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .play-right {
+        width: 60%;
+    }
+
+    .image-offer {
+        width: 150px;
+        margin-top: -100px;
+        margin-left: -80px;
+    }
+    .multi-games {
+        margin-top: 160px;
+        margin-bottom:100px ;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+    }
+    .btn-games {
+        font-size:12px;
+        width:115px;
+        height:45px;
+    }
+    .games-part img {
+        width: 40px;
+        height: 40px;
+    }
+    .btn-games p{
+        padding-left:3px;
+    }
+    
+}
+
+/* RESPONSIVE FOR MOBILE DEVICE  */
+
 @media screen and (max-width:425px) {
     .nav-bar {
         width: 100%;
@@ -13,7 +119,6 @@
 
     .nav-menu {
         margin-top: 30px;
-        ;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -106,6 +211,7 @@
 
     .cards {
         width: 100%;
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -129,7 +235,7 @@
     }
 
     .play {
-        margin-top: 40px;
+        margin-top: 100px;
         margin-bottom: 90px;
         width: 100%;
         flex-direction: column;
