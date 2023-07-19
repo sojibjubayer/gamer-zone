@@ -58,12 +58,22 @@
         text-transform: lowercase;
         margin-top: 15px;
     }
+    .btn-primary {
+        padding: 10px 30px;
+        font-size: 13px;
+    }
+    .btn-secondary {
+        background: #4EC5F7;
+        padding: 10px 30px;
+        font-size: 13px;
+    }
 
     .banner-right {
         width: 80%;
     }
 
     .we-r-gamer {
+        margin-top: 100px;
         width: 100%;
         flex-direction: column;
     }
