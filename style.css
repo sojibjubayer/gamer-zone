@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
-
-
+/* COMMON CSS  */
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
 }
+
+/* NAVBAR PART START  */
 
 .nav-bar {
     width: 80%;
@@ -24,9 +25,14 @@
 
 .logo-container h3 {
 
-    padding-left: 15px;
+    padding-left: 12px;
     font-size: 40px;
     font-weight: 700;
+}
+
+.logo-container img {
+    width: 80px;
+    height: 40px;
 }
 
 .logo-color {
@@ -54,7 +60,7 @@
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
     border-radius: 8px;
-    padding:10px 20px;
+    padding: 10px 20px;
 
 }
 
@@ -64,19 +70,19 @@
 
 .fa-brands {
     margin: 0 12px;
-} 
-.nav-icon{
+}
+
+.nav-icon {
     font-size: 25px;
-    color:red;
-}
-#tik i{
-    color:black;
+    color: red;
 }
 
-/* END OF NAVBAR  */
+#tik i {
+    color: black;
+}
 
-/* START BANNEER     */
-
+/* NAVBAR PART END  */
+/* BANNER PART START */
 
 .banner {
     max-width: 80%;
@@ -157,11 +163,12 @@
     height: 100%;
 }
 
-/* WE ARE GAMER SECTION  */
+/* BANNER PART END  */
+/* WE ARE GAMER PART START  */
 
 .we-r-gamer {
     width: 80%;
-    margin: 0 auto;
+    margin: 100px auto;
     display: flex;
     align-items: center;
 }
@@ -209,8 +216,8 @@
     font-weight: 700;
 }
 
-/* END OF WE R GAMER  */
-
+/* WE ARE GAMER PART END  */
+/* ONLINE GAMES START  */
 .funny-videos-top {
     margin-top: 100px;
     text-align: center;
@@ -263,48 +270,51 @@
 }
 
 /* CARD SPECIAL EFFECT START  */
-.special{
+.special {
     position: relative;
     cursor: pointer;
-  }
-  .overlay {
-    position: absolute;
+}
+
+.overlay {
     top: 0px;
     left: 0px;
-    border:2px solid red;
+    position: absolute;
+    border: 2px solid red;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6);
+    transition: opacity 0.2s ease;
     opacity: 0;
-    transition: opacity 0.3s ease;
-  }
-  
-  .play-button{
-      color: #fff;
-      font-size: 30px;
-  }
-  .watch-now {
+}
+
+.play-button {
+    color: #fff;
+    font-size: 30px;
+}
+
+.watch-now {
     color: red;
     font-size: 20px;
-  }
-  
-  .special:hover .overlay {
+}
+
+.special:hover .overlay {
     opacity: 1;
-    border-radius:10px;
-  }
-  
-  .special:hover .play-button,
-  .special:hover .watch-now {
+    border-radius: 10px;
+}
+
+.special:hover .play-button,
+.special:hover .watch-now {
     display: block;
-  }
+}
 
 /* CARD SPECIAL EFFECT END  */
+/* ONLINE GAMES END  */
 
-/* PLAY SECTION START */
+/* PLAY INSTANTLY START  */
 
 .play {
 
@@ -356,45 +366,47 @@
     margin-left: -100px;
 }
 
-/* PLAY SECTION END */
+/* PLAY INSTANTLY END  */
 
-/* MULTI GAMES START  */
+/* MULTIPLE GAMES PART START  */
 
 .multi-games {
     display: flex;
     justify-content: center;
     gap: 5px;
     flex-wrap: wrap;
-    width:85%;
-    margin:0 auto;
+    width: 85%;
+    margin: 0 auto;
 }
 
 .btn-games {
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
-    background-color:transparent;
+    background-color: transparent;
     border: none;
     color: #0B0223;
     font-size: 14px;
     font-weight: 600;
-    width:220px;
-    height:75px;
+    width: 220px;
+    height: 75px;
 
 }
+
 .btn-games:hover {
     border: 1px solid #FF42A5;
     border-radius: 10px;
     box-sizing: border-box;
-    color:#F948B2;
+    color: #F948B2;
     cursor: pointer;
 }
-.btn-games p{
+
+.btn-games p {
     padding-left: 5px;
 }
 
-/* MULTI GAMES END  */
-/* FOOTER START  */
+/* MULTIPLE GAMES PART START  */
+/* FOOTER PART START  */
 footer {
     margin-top: 100px;
     background-color: #0B0223;
@@ -405,10 +417,16 @@ footer {
 .footer-logo {
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 80px;
+    height: 40px;
 }
 
 footer h3 {
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 700;
     color: #fff;
     margin-left: 10px;
@@ -434,21 +452,24 @@ footer h3 {
     display: flex;
     justify-content: center;
     margin-top: 40px;
-    font-size:30px;
+    font-size: 27px;
+    cursor: pointer;
 }
 
 .fa-brands {
     color: white;
 }
-.fa-facebook{
 
-    background-color:blue;
+.fa-facebook {
+
+    background-color: blue;
     border-radius: 50%;
-   
+
 }
-.fa-youtube{
-    color:red;
-    
+
+.fa-youtube {
+    color: red;
+
 }
 
 .cookie-policy a {
@@ -459,9 +480,11 @@ footer h3 {
 }
 
 .copyright {
-    margin-top:20px;
+    margin-top: 40px;
     text-align: center;
     color: rgba(255, 255, 255, 0.60);
     font-size: 14px;
     font-weight: 500;
 }
+
+/* FOOTER PART END  */
